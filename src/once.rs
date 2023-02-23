@@ -3,11 +3,11 @@
 //! and at last run `call_once` to run at the same time
 //!
 //! ```rust
-//! util::once::add_once(move || { ... do something ... });
-//! util::once::add_once(move || { ... do something ... });
-//! util::once::add_once(move || { ... do something ... });
+//! once::add_once(move || { ... do something ... });
+//! once::add_once(move || { ... do something ... });
+//! once::add_once(move || { ... do something ... });
 //!
-//! util::once::call_once();
+//! once::call_once();
 //! ```
 //!
 

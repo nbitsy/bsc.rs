@@ -7,8 +7,7 @@ use std::os::unix::raw::mode_t;
 use std::panic::{PanicInfo, RefUnwindSafe};
 use log::{error, info};
 use std::sync::{Arc, Once};
-use crate::util::thread::runner::ERunnerState::{EFinished, ENone, EPanic, ERunning};
-use crate::util;
+use crate::thread::runner::ERunnerState::{EFinished, ENone, EPanic, ERunning};
 
 #[derive(Debug)]
 enum ERunnerState {

@@ -1,7 +1,7 @@
 //!
 //! - Example:
 //! ```rust
-//! use bwserver::defer;
+//! use bsc::defer;
 //! #[test]
 //! fn test_defer() {
 //!

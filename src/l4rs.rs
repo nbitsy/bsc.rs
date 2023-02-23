@@ -2,17 +2,17 @@
 //!
 //! ```rust
 //! [dependencies]
-//! log4rs = "1.2.0"
-//! log = "0.4.17
+//! log4rs = "1.2.0+"
+//! log = "0.4.17+"
 //! ```
 //!
 //! ```rust
-//! use bwserver;
+//! use bsc;
 //! use log;
 //!
 //! let logfile = "config/log4rs.yaml";
 //!
-//! if bwserver::tool::l4rs::init_file(logfile) == None {
+//! if bsc::tool::l4rs::init_file(logfile) == None {
 //!     panic!("Init log file {:?} error.", logfile);
 //! )
 //!
